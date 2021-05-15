@@ -1,0 +1,42 @@
+2021-05-14T04:31:54+00:00 CRITICAL syntax error, unexpected 'defined' (T_STRING) in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php on line 20
+
+2021-05-14T04:41:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_new() in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php:4
+Stack trace:
+#0 C:\xampp\htdocs\pascual\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(491): WC_Shortcode_Products->get_content()
+#5 C:\xampp\htdocs\pascual\wordpress\wp-includes\class-wp-hook.php(292): WC_Template_Loader::unsupported_theme_shop_content_filter('')
+#6 C:\xampp\h in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php on line 4
+
+2021-05-14T04:42:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_new() in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php:4
+Stack trace:
+#0 C:\xampp\htdocs\pascual\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(491): WC_Shortcode_Products->get_content()
+#5 C:\xampp\htdocs\pascual\wordpress\wp-includes\class-wp-hook.php(292): WC_Template_Loader::unsupported_theme_shop_content_filter('')
+#6 C:\xampp\h in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php on line 4
+
+2021-05-14T04:42:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_new() in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php:4
+Stack trace:
+#0 C:\xampp\htdocs\pascual\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(491): WC_Shortcode_Products->get_content()
+#5 C:\xampp\htdocs\pascual\wordpress\wp-includes\class-wp-hook.php(292): WC_Template_Loader::unsupported_theme_shop_content_filter('')
+#6 C:\xampp\h in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php on line 4
+
+2021-05-14T04:43:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_new() in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php:4
+Stack trace:
+#0 C:\xampp\htdocs\pascual\wordpress\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(491): WC_Shortcode_Products->get_content()
+#5 C:\xampp\htdocs\pascual\wordpress\wp-includes\class-wp-hook.php(292): WC_Template_Loader::unsupported_theme_shop_content_filter('')
+#6 C:\xampp\h in C:\xampp\htdocs\pascual\wordpress\wp-content\plugins\woocommerce\templates\content-product.php on line 4
+
